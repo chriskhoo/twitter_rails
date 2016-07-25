@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root #controller name # method
+  root 'application#welcome' #controller name # method
 
 
 
